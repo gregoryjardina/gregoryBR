@@ -1,0 +1,110 @@
+{
+  "project_name": "Grego Infortech - Zen Cyberpunk Landing Page",
+  "design_philosophy": {
+    "theme": "Zen Cyberpunk",
+    "core_concept": "Presença Calma (Calm Presence) in a Chaotic Digital World",
+    "emotional_tone": "Confident, Secure, Organized, Non-urgent",
+    "visual_style": "High-contrast Dark Mode with tactical Neon accents"
+  },
+  "typography": {
+    "font_family_heading": "\"Syne\", \"Space Grotesk\", sans-serif",
+    "font_family_body": "\"Manrope\", sans-serif",
+    "heading_style": "Bold, Tight tracking (-0.02em), Uppercase for small labels",
+    "body_style": "Clean, Readable, Relaxed line-height (1.6)",
+    "instructions": "Import 'Syne' (400, 700, 800) and 'Manrope' (400, 500, 600) from Google Fonts. Use Syne for all Headings (h1-h3) and Manrope for body text. NOTE: If Space Grotesk is preferred for a more 'tech' feel in headers, it is acceptable here despite the general ban, as it fits the specific brand identity, but Syne is the E1 recommendation for uniqueness."
+  },
+  "colors": {
+    "palette": {
+      "background": "#050505",
+      "surface": "#0A0A0A",
+      "surface_highlight": "#121212",
+      "text_primary": "#FFFFFF",
+      "text_secondary": "#A3A3A3",
+      "primary_neon": "#39FF14",
+      "secondary_neon": "#00F0FF",
+      "error": "#FF3333",
+      "border_dim": "rgba(255, 255, 255, 0.1)",
+      "border_bright": "rgba(57, 255, 20, 0.5)"
+    },
+    "gradients": {
+      "neon_glow": "linear-gradient(135deg, #39FF14 0%, #00F0FF 100%)",
+      "subtle_dark": "linear-gradient(to bottom, #050505, #0A0A0A)"
+    },
+    "usage_rules": "Backgrounds must be #050505. Cards use #0A0A0A with a 1px border of white/10. Neon colors are for Accents, Buttons, and Hover states only. Never use neon for body text."
+  },
+  "layout": {
+    "grid_system": "Bento Grid (Mode A) for Services. Asymmetric column layouts for Vision.",
+    "spacing": "Generous. Use p-8 to p-16. Gap-8 minimum for grids.",
+    "container_width": "max-w-7xl mx-auto px-6",
+    "z_index": {
+      "background_elements": -1,
+      "content": 10,
+      "sticky_nav": 50,
+      "overlays": 100
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "Solid Neon Green (#39FF14) background, Black text, Sharp edges (rounded-sm), font-bold, hover:scale-105 transition-transform",
+      "secondary": "Transparent background, Neon Blue (#00F0FF) border, Neon Blue text, hover:bg-neon-blue/10",
+      "social": "Icon-only or Text+Icon, minimal, high contrast on hover"
+    },
+    "cards": {
+      "style": "Glassmorphism Lite. bg-white/5 backdrop-blur-md, border border-white/10. On hover: border-neon-green/50 and slight glow.",
+      "feature_card": "Must use the 'Tracing Beam' effect (animated border) on hover."
+    },
+    "navigation": {
+      "style": "Floating, blur-backdrop. Logo 'GI' on left, Links center, 'Fale Comigo' (LinkedIn) CTA right.",
+      "mobile": "Hamburger menu with full-screen dark overlay"
+    },
+    "sections": {
+      "hero": {
+        "layout": "Centered text or Left-aligned with abstract 3D element on right.",
+        "content": "Headline: 'Tecnologia com Presença Calma'. Subheadline: 'Infraestrutura que funciona sem pânico'.",
+        "background": "Abstract Green Neon Lines (Image 1) with low opacity overlay."
+      },
+      "vision": {
+        "layout": "Split screen. Image on one side, text on other. High contrast."
+      },
+      "services": {
+        "layout": "Bento Grid. 4 items. Mix of square and tall cards.",
+        "content": "Consultoria, Infraestrutura, Segurança, Organização."
+      },
+      "cta_final": {
+        "layout": "Minimalist centered. Large typography. Direct links to LinkedIn."
+      }
+    }
+  },
+  "image_urls": {
+    "hero_bg": "https://images.unsplash.com/photo-1762278804832-7f9b4cf3b693?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMG5lb24lMjBncmVlbiUyMGJsdWUlMjBjeWJlciUyMHRlY2hub2xvZ3klMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzI2NzY4NTF8MA&ixlib=rb-4.1.0&q=85",
+    "vision_bg": "https://images.unsplash.com/photo-1762278804842-24702a3fb783?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMG5lb24lMjBncmVlbiUyMGJsdWUlMjBjeWJlciUyMHRlY2hub2xvZ3klMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzI2NzY4NTF8MA&ixlib=rb-4.1.0&q=85",
+    "tech_texture": "https://images.unsplash.com/photo-1614508569207-3295ac89d75f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w7NDk1NzZ8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwc2VydmVyJTIwcm9vbSUyMGRhdGElMjBjZW50ZXIlMjBuZW9uJTIwbGlnaHRzJTIwZGFya3xlbnwwfHx8fDE3NzI2NzY4NTJ8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "visual_enhancers": {
+    "animations": {
+      "scroll": "Use 'lenis' for smooth scrolling.",
+      "reveal": "Framer Motion: fade-in-up with stagger for lists.",
+      "hover": "Glow effects on cards. Text color shift to Neon Green."
+    },
+    "effects": {
+      "noise": "Add a subtle SVG noise overlay fixed to the screen at 3% opacity to reduce digital flatness.",
+      "glow": "Use drop-shadow-[0_0_15px_rgba(57,255,20,0.3)] for primary buttons."
+    }
+  },
+  "universal_guidelines": [
+    "Do NOT use gradients for text. Keep text solid White or Grey for readability.",
+    "Do NOT use standard Shadcn cards without heavy customization.",
+    "Ensure 4.5:1 contrast ratio for all text.",
+    "Mobile First: Stack grids to 1 column on mobile.",
+    "Use 'data-testid' for all interactive elements.",
+    "No Contact Form - Only Social Links.",
+    "Language: Portuguese (BR)."
+  ],
+  "instructions_to_main_agent": [
+    "1. INSTALL 'lenis', 'framer-motion', 'clsx', 'tailwind-merge', 'lucide-react' if not present.",
+    "2. CONFIGURE Tailwind with the Neon palette and fonts (Syne, Manrope).",
+    "3. CREATE the 'GI' Logo as a text component using 'Syne' font with a neon glow (text-shadow).",
+    "4. BUILD the sections sequentially: Hero -> Vision -> Services -> Approach -> Result -> Positioning -> CTA.",
+    "5. MOCKUP Social Links: LinkedIn (https://linkedin.com/in/gregoinfortech - mock), Instagram (https://instagram.com/gregoinfortech - mock)."
+  ]
+}
