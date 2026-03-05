@@ -4,6 +4,7 @@ import VisionSection from "@/components/VisionSection";
 import ServicesSection from "@/components/ServicesSection";
 import ApproachSection from "@/components/ApproachSection";
 import ResultSection from "@/components/ResultSection";
+import ProjectsSection from "@/components/ProjectsSection";
 import PositioningSection from "@/components/PositioningSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -18,6 +19,7 @@ export default function LandingPage() {
         <ServicesSection />
         <ApproachSection />
         <ResultSection />
+        <ProjectsSection />
         <PositioningSection />
         <CTASection />
       </main>
