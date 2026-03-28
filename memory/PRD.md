@@ -1,27 +1,32 @@
-# PRD - Grego Infortech Portfolio (Bilingual)
+# PRD - Gregory Porto Portfolio
 
-## Architecture (Refactored Dec 2025)
-- React + Tailwind CSS + Framer Motion (scroll reveal only)
+## Profile
+- Gregory Porto, Brazil, +10 years IT experience
+- Transitioning: Infrastructure → Cloud/DevOps
+- Background: Navy Marine, Freelance IT, Instructor, Systems Analyst
+
+## Architecture
+- React + Tailwind CSS + Framer Motion (scroll reveal)
 - i18n: React Context + centralized translations (EN/PT-BR)
-- 7 components: Navbar, Hero, About, Skills, Projects, Contact, Footer
-- 2 i18n files: translations.js, context.js
-- Fonts: Syne (headings 700), Manrope (body)
-- Dark theme: #080808, accents #39FF14/#00F0FF
+- 9 components: Navbar, Hero, About, Skills, Experience, Projects, Lab, Contact, Footer
+- Fonts: Syne (headings), Manrope (body)
+- Theme: #080808 dark, #39FF14 green, #00F0FF blue
 
-## i18n System
-- `/src/i18n/translations.js` — all content EN + PT-BR
-- `/src/i18n/context.js` — React Context, browser detection, localStorage
-- Switcher: EN|PT toggle in navbar (desktop + mobile)
-- Add new content: duplicate key in both lang objects
+## Sections
+- Hero: CLOUD · DEV · SECURITY, specialist title, subtitle + description
+- About: 4 paragraphs (career story) + Current Focus sidebar
+- Skills: 6 cards (Cloud/AWS, Network, Support, Security, DevOps, Consulting)
+- Experience: Timeline with 5 roles (Alimentos Toscana current)
+- Projects: 4 real-world scenarios (Problem → Action → Result)
+- Lab: 4 learning experiments (AWS VPC, Docker, Linux, CI/CD)
+- Contact: LinkedIn + Instagram CTAs
 
-## Static Deploy (Cloudflare Pages)
-- Build: `yarn build`
-- Output: `build/`
-- No backend required for the portfolio
+## Static Deploy
+- Build: `yarn build` → `build/` folder
+- Compatible with Cloudflare Pages, Vercel, Netlify
 
 ## Backlog
-- P1: Replace placeholder project images with real photos
-- P1: Update LinkedIn/Instagram URLs
+- P1: Update LinkedIn/Instagram URLs with real profiles
 - P1: SEO meta tags + Open Graph
-- P2: Static deploy to Cloudflare Pages
-- P2: Contact form
+- P2: Add real project photos
+- P2: GitHub link in navbar
