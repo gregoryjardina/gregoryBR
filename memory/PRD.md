@@ -1,30 +1,27 @@
-# PRD - Grego Infortech Portfolio
-
-## Problem Statement
-Portfolio/landing page minimalista para "Grego Infortech" - consultoria de infraestrutura tecnológica.
+# PRD - Grego Infortech Portfolio (Bilingual)
 
 ## Architecture (Refactored Dec 2025)
-- Frontend: React + Tailwind CSS + Framer Motion (minimal usage)
-- 5 seções: Hero, About, Skills, Projects, Contact + Footer
-- 7 componentes totais (Navbar, Hero, About, Skills, Projects, Contact, Footer)
-- Fonts: Syne (headings, weight 700 max), Manrope (body)
-- Dark theme: #080808 bg, #39FF14 green accent, #00F0FF blue accent
+- React + Tailwind CSS + Framer Motion (scroll reveal only)
+- i18n: React Context + centralized translations (EN/PT-BR)
+- 7 components: Navbar, Hero, About, Skills, Projects, Contact, Footer
+- 2 i18n files: translations.js, context.js
+- Fonts: Syne (headings 700), Manrope (body)
+- Dark theme: #080808, accents #39FF14/#00F0FF
 
-## What's Been Implemented
-- [x] Navbar simples com scroll suave + menu mobile
-- [x] Hero section — tipografia limpa, line-height 1.15
-- [x] About section — Visão + Abordagem mesclados em 2 colunas
-- [x] Skills section — 4 cards 2x2 grid
-- [x] Projects section — 4 cards 2x2 com imagens placeholder
-- [x] Contact section — LinkedIn + Instagram CTAs
-- [x] Footer minimalista
-- [x] Responsividade: mobile 375px, tablet, desktop, zoom 80%
-- [x] Tipografia otimizada: line-height 1.2-1.6, letter-spacing, max-width
-- [x] Removed: noise overlay, complex hover states, excessive glow effects, 6 old components
+## i18n System
+- `/src/i18n/translations.js` — all content EN + PT-BR
+- `/src/i18n/context.js` — React Context, browser detection, localStorage
+- Switcher: EN|PT toggle in navbar (desktop + mobile)
+- Add new content: duplicate key in both lang objects
+
+## Static Deploy (Cloudflare Pages)
+- Build: `yarn build`
+- Output: `build/`
+- No backend required for the portfolio
 
 ## Backlog
-- P1: Substituir imagens placeholder por fotos reais
-- P1: Atualizar URLs reais LinkedIn/Instagram
+- P1: Replace placeholder project images with real photos
+- P1: Update LinkedIn/Instagram URLs
 - P1: SEO meta tags + Open Graph
-- P2: Static export para Cloudflare Pages/Vercel
-- P2: Formulário de contato funcional
+- P2: Static deploy to Cloudflare Pages
+- P2: Contact form
