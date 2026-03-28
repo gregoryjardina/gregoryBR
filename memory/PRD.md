@@ -1,58 +1,30 @@
-# PRD - Grego Infortech Landing Page
+# PRD - Grego Infortech Portfolio
 
 ## Problem Statement
-Landing page para "Grego Infortech" - consultoria de infraestrutura tecnológica. Tom: confiante, calmo, seguro, sem urgência artificial.
+Portfolio/landing page minimalista para "Grego Infortech" - consultoria de infraestrutura tecnológica.
 
-## User Persona
-- Donos de empresas e gestores não-técnicos brasileiros
-- Valorizam organização, clareza e estabilidade na infraestrutura digital
+## Architecture (Refactored Dec 2025)
+- Frontend: React + Tailwind CSS + Framer Motion (minimal usage)
+- 5 seções: Hero, About, Skills, Projects, Contact + Footer
+- 7 componentes totais (Navbar, Hero, About, Skills, Projects, Contact, Footer)
+- Fonts: Syne (headings, weight 700 max), Manrope (body)
+- Dark theme: #080808 bg, #39FF14 green accent, #00F0FF blue accent
 
-## Core Requirements
-- Dark theme (#050505) com acentos neon verde (#39FF14) e azul (#00F0FF)
-- Texto branco com alto contraste
-- Seções: Hero, Visão, Serviços, Abordagem, Resultado, Posicionamento, CTA
-- Links para LinkedIn e Instagram
-- Design responsivo (mobile-first)
-- Animações suaves (framer-motion)
+## What's Been Implemented
+- [x] Navbar simples com scroll suave + menu mobile
+- [x] Hero section — tipografia limpa, line-height 1.15
+- [x] About section — Visão + Abordagem mesclados em 2 colunas
+- [x] Skills section — 4 cards 2x2 grid
+- [x] Projects section — 4 cards 2x2 com imagens placeholder
+- [x] Contact section — LinkedIn + Instagram CTAs
+- [x] Footer minimalista
+- [x] Responsividade: mobile 375px, tablet, desktop, zoom 80%
+- [x] Tipografia otimizada: line-height 1.2-1.6, letter-spacing, max-width
+- [x] Removed: noise overlay, complex hover states, excessive glow effects, 6 old components
 
-## What's Been Implemented (Dec 2025)
-- [x] Navbar flutuante com logo GI, links de navegação, ícones sociais, CTA
-- [x] Hero section com título, subtítulo, botão CTA
-- [x] Visão section com imagem e texto split-screen
-- [x] Serviços section com 4 cards glassmorphism (hover effects)
-- [x] Abordagem section com princípios
-- [x] Resultado section com 5 itens checkmark
-- [x] Posicionamento section centralizado
-- [x] CTA Final com botões LinkedIn e Instagram
-- [x] Footer com logo, redes sociais, copyright
-- [x] Menu mobile hamburger funcional
-- [x] Scroll suave entre seções
-- [x] Textos com acentos portugueses corretos
-- [x] Framer-motion animations
-
-## Architecture
-- Frontend: React + Tailwind CSS + Framer Motion
-- Backend: FastAPI (minimal, not heavily used)
-- Database: MongoDB (not used yet)
-- Fonts: Syne (headings), Manrope (body)
-
-## Prioritized Backlog
-### P0
-- Nenhum pendente
-
-### P1
-- Adicionar formulário de contato funcional
-- Configurar links reais do LinkedIn e Instagram
-- SEO meta tags e Open Graph
-
-### P2
-- Adicionar seção de depoimentos/cases
-- Blog/artigos técnicos
-- Analytics (Google Analytics / Plausible)
-- Integração WhatsApp
-
-## Next Tasks
-1. Atualizar URLs das redes sociais com links reais
-2. Profissionalizar perfil do Instagram
-3. Adicionar meta tags SEO
-4. Considerar formulário de contato com armazenamento
+## Backlog
+- P1: Substituir imagens placeholder por fotos reais
+- P1: Atualizar URLs reais LinkedIn/Instagram
+- P1: SEO meta tags + Open Graph
+- P2: Static export para Cloudflare Pages/Vercel
+- P2: Formulário de contato funcional
