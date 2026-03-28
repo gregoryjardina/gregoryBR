@@ -68,6 +68,9 @@ export default function Navbar() {
           <a data-testid="nav-github" href="https://github.com/gregoryjardina-dev" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Github size={15} />
           </a>
+          <a data-testid="nav-youtube" href="https://www.youtube.com/channel/UClgMa08_T8rA0qt82lwnzjA" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
+            <Youtube size={15} />
+          </a>
           <a data-testid="nav-instagram" href="https://www.instagram.com/gregory.jardina/" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Instagram size={15} />
           </a>
