@@ -1,27 +1,21 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import VisionSection from "@/components/VisionSection";
-import ServicesSection from "@/components/ServicesSection";
-import ApproachSection from "@/components/ApproachSection";
-import ResultSection from "@/components/ResultSection";
+import AboutSection from "@/components/AboutSection";
+import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
-import PositioningSection from "@/components/PositioningSection";
-import CTASection from "@/components/CTASection";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 export default function LandingPage() {
   return (
-    <div data-testid="landing-page" className="relative min-h-screen bg-bg-primary">
+    <div data-testid="landing-page" className="min-h-screen bg-bg-primary text-white">
       <Navbar />
       <main>
         <HeroSection />
-        <VisionSection />
-        <ServicesSection />
-        <ApproachSection />
-        <ResultSection />
+        <AboutSection />
+        <SkillsSection />
         <ProjectsSection />
-        <PositioningSection />
-        <CTASection />
+        <ContactSection />
       </main>
       <Footer />
     </div>
