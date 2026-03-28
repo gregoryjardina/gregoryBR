@@ -1,6 +1,8 @@
 import { Linkedin, Instagram } from "lucide-react";
+import { useI18n } from "@/i18n/context";
 
 export default function Footer() {
+  const { t } = useI18n();
   return (
     <footer data-testid="footer" className="border-t border-white/[0.05] py-8 px-5 sm:px-8">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -16,7 +18,7 @@ export default function Footer() {
             <Instagram size={15} />
           </a>
         </div>
-        <p className="text-white/15 text-xs font-body">{new Date().getFullYear()} Grego Infortech</p>
+        <p className="text-white/15 text-xs font-body">{new Date().getFullYear()} {t.footer.copy}</p>
       </div>
     </footer>
   );
