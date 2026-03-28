@@ -61,7 +61,7 @@ const translations = {
         {
           role: "IT Instructor & Coordinator",
           company: "Educational Institution",
-          period: "2019 \u2013 2024",
+          period: "2024 \u2013 2025",
           current: false,
           bullets: [
             "Taught IT fundamentals, networking and hardware to students of various skill levels",
@@ -71,7 +71,7 @@ const translations = {
         {
           role: "Freelance IT Support Analyst",
           company: "Self-employed",
-          period: "2014 \u2013 2024",
+          period: "2014 \u2013 2023",
           current: false,
           bullets: [
             "Provided on-site and remote support for small businesses and individuals",
@@ -82,7 +82,7 @@ const translations = {
         {
           role: "B2B ERP Technical Sales",
           company: "Technology Partner",
-          period: "2018 \u2013 2019",
+          period: "2019 \u2013 2021",
           current: false,
           bullets: [
             "Provided technical consulting and sales support for ERP systems to business clients",
@@ -92,7 +92,7 @@ const translations = {
         {
           role: "Brazilian Navy Marine",
           company: "Brazilian Navy",
-          period: "2010 \u2013 2012",
+          period: "2005 \u2013 2010",
           current: false,
           bullets: [
             "Developed strong discipline, teamwork and resilience under high-pressure environments",
@@ -160,7 +160,7 @@ const translations = {
   pt: {
     nav: {
       about: "Sobre",
-      skills: "Skills",
+      skills: "Habilidades",
       experience: "Experi\u00eancia",
       projects: "Projetos",
       lab: "Lab",
@@ -219,7 +219,7 @@ const translations = {
         {
           role: "Instrutor e Coordenador de TI",
           company: "Institui\u00e7\u00e3o de Ensino",
-          period: "2019 \u2013 2024",
+          period: "2024 \u2013 2025",
           current: false,
           bullets: [
             "Lecionei fundamentos de TI, redes e hardware para alunos de diferentes n\u00edveis",
@@ -229,7 +229,7 @@ const translations = {
         {
           role: "Analista de Suporte Freelancer",
           company: "Aut\u00f4nomo",
-          period: "2014 \u2013 2024",
+          period: "2014 \u2013 2023",
           current: false,
           bullets: [
             "Suporte presencial e remoto para pequenas empresas e pessoas f\u00edsicas",
@@ -240,7 +240,7 @@ const translations = {
         {
           role: "Vendas T\u00e9cnicas B2B \u2014 ERP",
           company: "Parceiro Tecnol\u00f3gico",
-          period: "2018 \u2013 2019",
+          period: "2019 \u2013 2021",
           current: false,
           bullets: [
             "Consultoria t\u00e9cnica e apoio comercial na venda de sistemas ERP para empresas",
@@ -250,7 +250,7 @@ const translations = {
         {
           role: "Fuzileiro Naval",
           company: "Marinha do Brasil",
-          period: "2010 \u2013 2012",
+          period: "2005 \u2013 2010",
           current: false,
           bullets: [
             "Desenvolvimento de disciplina, trabalho em equipe e resili\u00eancia em ambientes de alta press\u00e3o",

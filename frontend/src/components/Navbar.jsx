@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Linkedin, Instagram } from "lucide-react";
+import { Menu, X, Linkedin, Instagram, Github, Youtube } from "lucide-react";
 import { useI18n } from "@/i18n/context";
 
 export default function Navbar() {
@@ -62,10 +62,13 @@ export default function Navbar() {
             <span className="text-white/15">|</span>
             <span className={lang === "pt" ? "text-neon-green" : "text-white/35"}>PT</span>
           </button>
-          <a data-testid="nav-linkedin" href="https://linkedin.com/in/gregoinfortech" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
+          <a data-testid="nav-linkedin" href="https://www.linkedin.com/in/gregoryporto/" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Linkedin size={15} />
           </a>
-          <a data-testid="nav-instagram" href="https://instagram.com/gregoinfortech" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
+          <a data-testid="nav-github" href="https://github.com/gregoryjardina-dev" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
+            <Github size={15} />
+          </a>
+          <a data-testid="nav-instagram" href="https://www.instagram.com/gregory.jardina/" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Instagram size={15} />
           </a>
         </div>
@@ -90,8 +93,10 @@ export default function Navbar() {
             </button>
           ))}
           <div className="flex gap-5 mt-2">
-            <a href="https://linkedin.com/in/gregoinfortech" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Linkedin size={18} /></a>
-            <a href="https://instagram.com/gregoinfortech" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Instagram size={18} /></a>
+            <a href="https://www.linkedin.com/in/gregoryporto/" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Linkedin size={18} /></a>
+            <a href="https://github.com/gregoryjardina-dev" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Github size={18} /></a>
+            <a href="https://www.youtube.com/channel/UClgMa08_T8rA0qt82lwnzjA" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Youtube size={18} /></a>
+            <a href="https://www.instagram.com/gregory.jardina/" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Instagram size={18} /></a>
           </div>
         </div>
       )}
