@@ -27,7 +27,11 @@ export default function Navbar() {
     document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const toggleLang = () => setLang(lang === "en" ? "pt" : "en");
+  const langs = ["en", "fr", "pt"];
+  const cycleLang = () => {
+    const idx = langs.indexOf(lang);
+    setLang(langs[(idx + 1) % langs.length]);
+  };
 
   return (
     <nav
@@ -55,10 +59,12 @@ export default function Navbar() {
           ))}
           <button
             data-testid="lang-switcher"
-            onClick={toggleLang}
+            onClick={cycleLang}
             className="flex items-center gap-1 text-[11px] font-body font-semibold border border-white/10 rounded px-2 py-0.5 hover:border-white/20 transition-colors"
           >
             <span className={lang === "en" ? "text-neon-green" : "text-white/35"}>EN</span>
+            <span className="text-white/15">|</span>
+            <span className={lang === "fr" ? "text-neon-green" : "text-white/35"}>FR</span>
             <span className="text-white/15">|</span>
             <span className={lang === "pt" ? "text-neon-green" : "text-white/35"}>PT</span>
           </button>
@@ -77,8 +83,10 @@ export default function Navbar() {
         </div>
 
         <div className="flex md:hidden items-center gap-3">
-          <button data-testid="lang-switcher-mobile" onClick={toggleLang} className="text-[11px] font-body font-semibold border border-white/10 rounded px-2 py-0.5">
+          <button data-testid="lang-switcher-mobile" onClick={cycleLang} className="text-[11px] font-body font-semibold border border-white/10 rounded px-2 py-0.5">
             <span className={lang === "en" ? "text-neon-green" : "text-white/35"}>EN</span>
+            <span className="text-white/15"> | </span>
+            <span className={lang === "fr" ? "text-neon-green" : "text-white/35"}>FR</span>
             <span className="text-white/15"> | </span>
             <span className={lang === "pt" ? "text-neon-green" : "text-white/35"}>PT</span>
           </button>

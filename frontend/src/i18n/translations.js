@@ -315,6 +315,164 @@ const translations = {
       copy: "Gregory Porto",
     },
   },
+  fr: {
+    nav: {
+      about: "\u00c0 propos",
+      skills: "Comp\u00e9tences",
+      experience: "Exp\u00e9rience",
+      projects: "Projets",
+      lab: "Labo",
+      contact: "Contact",
+      cta: "Me contacter",
+    },
+    hero: {
+      label: "CLOUD \u00b7 DEV \u00b7 SECURITY",
+      title: "Sp\u00e9cialiste Cloud et Infrastructure ",
+      titleAccent: "en \u00e9volution",
+      subtitle: "Plus de 10 ans d\u2019exp\u00e9rience pratique en soutien TI, r\u00e9seautique et infrastructure.",
+      description: "Je con\u00e7ois, d\u00e9panne et am\u00e9liore des environnements TI \u2014 de l\u2019infrastructure physique aux syst\u00e8mes infonuagiques \u2014 avec un focus sur la stabilit\u00e9, la s\u00e9curit\u00e9 et l\u2019ex\u00e9cution concr\u00e8te.",
+      cta: "Me contacter",
+    },
+    about: {
+      label: "\u00c0 propos",
+      title: "Gregory Porto",
+      paragraphs: [
+        "Ancien fusilier marin de la Marine br\u00e9silienne, apportant discipline, r\u00e9silience et capacit\u00e9 d\u2019ex\u00e9cution sous pression.",
+        "Plus de 10 ans d\u2019exp\u00e9rience comme analyste de soutien TI, g\u00e9rant autant les probl\u00e8mes techniques quotidiens que l\u2019organisation d\u2019infrastructure et la stabilit\u00e9 des syst\u00e8mes.",
+        "Actuellement analyste de syst\u00e8mes chez Alimentos Toscana, soutenant la croissance de l\u2019entreprise par l\u2019am\u00e9lioration de la structure interne et des processus technologiques.",
+        "Focus sur la cr\u00e9ation d\u2019environnements structur\u00e9s, l\u2019automatisation et la fiabilit\u00e9 \u00e0 long terme.",
+      ],
+      focusLabel: "Focus actuel",
+      focusItems: ["Infonuagique (AWS)", "Infrastructure", "Cybers\u00e9curit\u00e9", "DevOps"],
+    },
+    skills: {
+      label: "Comp\u00e9tences",
+      title: "Avec quoi je travaille",
+      items: [
+        { title: "Infonuagique & AWS", text: "EC2, S3, VPC, IAM, CloudWatch. Construction et apprentissage de l\u2019infrastructure cloud avec un focus sur l\u2019application pratique." },
+        { title: "R\u00e9seautique & Infrastructure", text: "C\u00e2blage structur\u00e9, commutateurs, routeurs, pare-feu, organisation de racks, segmentation Wi-Fi, VLANs." },
+        { title: "Soutien TI & Syst\u00e8mes", text: "Gestion de postes de travail, d\u00e9pannage, syst\u00e8mes ERP (TOTVS), Active Directory, administration Microsoft 365." },
+        { title: "Cybers\u00e9curit\u00e9", text: "Contr\u00f4le d\u2019acc\u00e8s, politiques de sauvegarde, protection des terminaux, meilleures pratiques de s\u00e9curit\u00e9 pour les PME." },
+        { title: "DevOps & Automatisation", text: "Linux, Docker, Git, pipelines CI/CD. \u00c9largissement des connaissances en infrastructure as code et automatisation." },
+        { title: "Consultation technique", text: "\u00c9valuation d\u2019environnements TI, recommandations strat\u00e9giques, optimisation de processus et alignement technologique avec les objectifs d\u2019affaires." },
+      ],
+    },
+    experience: {
+      label: "Exp\u00e9rience professionnelle",
+      title: "Parcours",
+      roles: [
+        {
+          role: "Analyste de syst\u00e8mes",
+          company: "Alimentos Toscana",
+          period: "Nov 2025 \u2013 Pr\u00e9sent",
+          current: true,
+          bullets: [
+            "Am\u00e9lioration de la structure de soutien TI, incluant l\u2019\u00e9valuation et la mise \u00e0 niveau des postes de travail",
+            "Soutien \u00e0 la migration des syst\u00e8mes vers TOTVS, structurant les processus pour la croissance de l\u2019entreprise",
+            "Am\u00e9lioration de la gestion des courriels et migration vers Microsoft 365",
+            "Responsable de l\u2019administration, du contr\u00f4le et de la future formation interne sur les outils Microsoft",
+            "Planification de solutions bas\u00e9es sur l\u2019IA, priorisant une base solide avant l\u2019adoption",
+          ],
+        },
+        {
+          role: "Instructeur et coordonnateur TI",
+          company: "\u00c9tablissement d\u2019enseignement",
+          period: "2024 \u2013 2025",
+          current: false,
+          bullets: [
+            "Enseignement des fondamentaux TI, r\u00e9seautique et mat\u00e9riel \u00e0 des \u00e9tudiants de diff\u00e9rents niveaux",
+            "Coordination du curriculum et adaptation du contenu pour un apprentissage pratique",
+          ],
+        },
+        {
+          role: "Analyste de soutien TI (autonome)",
+          company: "Travailleur autonome",
+          period: "2014 \u2013 2023",
+          current: false,
+          bullets: [
+            "Soutien sur site et \u00e0 distance pour petites entreprises et particuliers",
+            "Installation d\u2019infrastructure, configuration r\u00e9seau, r\u00e9cup\u00e9ration de donn\u00e9es et maintenance de syst\u00e8mes",
+            "Relations client \u00e0 long terme b\u00e2ties sur un service technique fiable",
+          ],
+        },
+        {
+          role: "Ventes techniques B2B \u2014 ERP",
+          company: "Partenaire technologique",
+          period: "2019 \u2013 2021",
+          current: false,
+          bullets: [
+            "Consultation technique et soutien commercial pour la vente de syst\u00e8mes ERP aux entreprises",
+            "Pont entre les capacit\u00e9s techniques et les besoins d\u2019affaires durant le processus de vente",
+          ],
+        },
+        {
+          role: "Fusilier marin",
+          company: "Marine du Br\u00e9sil",
+          period: "2005 \u2013 2010",
+          current: false,
+          bullets: [
+            "D\u00e9veloppement de la discipline, du travail d\u2019\u00e9quipe et de la r\u00e9silience en environnement haute pression",
+            "Base de pens\u00e9e structur\u00e9e et d\u2019ex\u00e9cution orient\u00e9e mission, transpos\u00e9e dans le travail en TI",
+          ],
+        },
+      ],
+    },
+    projects: {
+      label: "Projets r\u00e9els",
+      title: "Probl\u00e8mes r\u00e9solus, r\u00e9sultats livr\u00e9s.",
+      items: [
+        {
+          title: "Refonte du r\u00e9seau corporatif",
+          problem: "Une entreprise de logistique subissait des pannes r\u00e9seau constantes affectant les op\u00e9rations quotidiennes.",
+          action: "R\u00e9organisation compl\u00e8te du c\u00e2blage structur\u00e9, remplacement des commutateurs non g\u00e9r\u00e9s par des g\u00e9r\u00e9s, et segmentation du r\u00e9seau.",
+          result: "R\u00e9duction de 80% des probl\u00e8mes de connexion. Performance r\u00e9seau stable et pr\u00e9visible.",
+          tags: ["R\u00e9seau", "C\u00e2blage", "Commutateurs"],
+        },
+        {
+          title: "D\u00e9ploiement de serveur & syst\u00e8me de sauvegarde",
+          problem: "Un cabinet comptable n\u2019avait aucun stockage centralis\u00e9 \u2014 les donn\u00e9es \u00e9taient dispers\u00e9es sur les machines personnelles.",
+          action: "Installation d\u2019un serveur local avec dossiers partag\u00e9s, contr\u00f4le d\u2019acc\u00e8s par utilisateur et sauvegardes automatiques quotidiennes.",
+          result: "Z\u00e9ro incident de perte de donn\u00e9es. Acc\u00e8s organis\u00e9 avec permissions ad\u00e9quates.",
+          tags: ["Serveur", "Sauvegarde", "S\u00e9curit\u00e9"],
+        },
+        {
+          title: "Infrastructure TI pour clinique m\u00e9dicale",
+          problem: "Une clinique avait un rack d\u00e9sorganis\u00e9 et aucune s\u00e9paration entre le Wi-Fi du personnel et des patients.",
+          action: "R\u00e9organisation du rack, identification de toutes les connexions et configuration de r\u00e9seaux Wi-Fi segment\u00e9s.",
+          result: "Infrastructure propre, s\u00e9curit\u00e9 am\u00e9lior\u00e9e et connectivit\u00e9 fiable.",
+          tags: ["Rack", "Wi-Fi", "Infrastructure"],
+        },
+        {
+          title: "R\u00e9cup\u00e9ration et optimisation d\u2019\u00e9quipements",
+          problem: "Les ordinateurs d\u2019un commerce de d\u00e9tail \u00e9taient lents, d\u00e9su\u00e9ts et sans routine de maintenance.",
+          action: "Diagnostic complet, nettoyage mat\u00e9riel, mises \u00e0 jour syst\u00e8me et cr\u00e9ation d\u2019un calendrier de maintenance pr\u00e9ventive.",
+          result: "Machines plus rapides, moins de pannes et un plan de maintenance durable en place.",
+          tags: ["Maintenance", "Optimisation", "Mat\u00e9riel"],
+        },
+      ],
+    },
+    lab: {
+      label: "Laboratoire",
+      title: "Exp\u00e9riences & \u00c9tudes",
+      subtitle: "Projets pratiques que je construis pour affiner mes comp\u00e9tences en Cloud, DevOps et S\u00e9curit\u00e9.",
+      items: [
+        { title: "AWS VPC \u00e0 partir de z\u00e9ro", text: "Construction d\u2019un VPC complet avec sous-r\u00e9seaux publics/priv\u00e9s, passerelle NAT et groupes de s\u00e9curit\u00e9 pour simuler une application web." },
+        { title: "Environnements Docker Compose", text: "Cr\u00e9ation de configurations multi-conteneurs pour le d\u00e9veloppement et les tests, incluant serveurs web, bases de donn\u00e9es et outils de surveillance." },
+        { title: "Durcissement de serveur Linux", text: "Configuration d\u2019un serveur Debian avec authentification SSH par cl\u00e9, fail2ban, r\u00e8gles UFW et mises \u00e0 jour de s\u00e9curit\u00e9 automatis\u00e9es." },
+        { title: "Pipeline CI/CD avec GitHub Actions", text: "Mise en place de flux automatis\u00e9s de build, test et d\u00e9ploiement pour comprendre la livraison continue en pratique." },
+      ],
+    },
+    contact: {
+      title: "Connectons-nous et ",
+      titleAccent: "b\u00e2tissons quelque chose de solide.",
+      text: "Que vous ayez besoin de soutien en infrastructure, de conseils infonuagiques, ou que vous vouliez simplement \u00e9changer des id\u00e9es \u2014 je suis ouvert aux conversations.",
+      linkedinCta: "Se connecter sur LinkedIn",
+      instagramCta: "Instagram",
+    },
+    footer: {
+      copy: "Gregory Porto",
+    },
+  },
 };
 
 export default translations;
