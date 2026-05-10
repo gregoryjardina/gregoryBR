@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { FlaskConical, Cloud, Server, GitBranch } from "lucide-react";
-import { useI18n } from "@/i18n/context";
+import { useI18n } from "@/i18n/context.jsx";
 
 const icons = [Cloud, Server, Server, GitBranch];
 const fade = { hidden: { opacity: 0, y: 14 }, show: { opacity: 1, y: 0 } };

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { I18nProvider } from "@/i18n/context";
-import LandingPage from "@/pages/LandingPage";
+import { I18nProvider } from "@/i18n/context.jsx";
+import LandingPage from "@/pages/LandingPage.jsx";
 
 function App() {
   return (
