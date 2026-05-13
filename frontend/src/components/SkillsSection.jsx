@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Cloud, Network, Monitor, ShieldCheck, Container, Briefcase } from "lucide-react";
-import { useI18n } from "@/i18n/context";
+import { useI18n } from "@/i18n/context.jsx";
 
 const icons = [Cloud, Network, Monitor, ShieldCheck, Container, Briefcase];
 const colors = ["#39FF14", "#00F0FF", "#39FF14", "#00F0FF", "#39FF14", "#00F0FF"];

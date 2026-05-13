@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Linkedin, Instagram, Github, Youtube } from "lucide-react";
-import { useI18n } from "@/i18n/context";
+import { useI18n } from "@/i18n/context.jsx";
 
 export default function Navbar() {
   const { lang, setLang, t } = useI18n();
