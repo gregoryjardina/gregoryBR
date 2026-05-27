@@ -27,6 +27,14 @@ export default function AboutSection() {
           {/* Focus sidebar — 2 cols */}
           <motion.div variants={fade} initial="hidden" animate={inView ? "show" : "hidden"} transition={{ duration: 0.5, delay: 0.12 }} className="lg:col-span-2">
             <div className="lg:mt-12 p-5 rounded border border-white/[0.06] bg-white/[0.015]">
+              {/* Image */}
+              <div className="mb-6">
+                <img
+                  src="/grego.png"
+                  alt="Gregory Porto"
+                  className="w-full rounded-lg border-2 border-neon-green/30"
+                />
+              </div>
               <p className="text-neon-green/50 text-[11px] tracking-[0.25em] uppercase mb-4 font-body">{t.about.focusLabel}</p>
               <div className="space-y-2.5">
                 {t.about.focusItems.map((item, i) => (
