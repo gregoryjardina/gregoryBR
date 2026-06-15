@@ -7,7 +7,7 @@ const translations = {
       projects: "Projects",
       lab: "Lab",
       contact: "Contact",
-      cta: "Get in Touch",
+      cta: "Join My Network",
     },
     hero: {
       label: "INFRASTRUCTURE \u00b7 CLOUD \u00b7 IT SECURITY \u00b7 DEV",
@@ -161,7 +161,7 @@ const translations = {
             "CORS configuration and frontend/backend communication via HTTP calls.",
             "FinOps practices through the complete cycle of provisioning and deallocation of resources for cost optimization."
           ],
-          images: ["../imgs/AWSAPI(1).jpg", "../imgs/AWSAPI(2).jpg", "../imgs/AWSAPI(3).jpg"]
+          images: ["/imgs/AWSAPI(1).jpg", "/imgs/AWSAPI(2).jpg", "/imgs/AWSAPI(3).jpg"]
         },
         {
           title: "Hardware Lab: PC Gamer Assembly and Setup",
@@ -186,7 +186,7 @@ const translations = {
             "Amazon EC2 for hosting the application's supporting infrastructure.",
             "Prompt Engineering (ChatGPT, Claude and Leonardo.ai) for code acceleration and asset generation."
           ],
-          images: ["../imgs/AWSTERRA.jpg", "../imgs/AWSTERRA(2).jpg"]
+          images: ["/imgs/AWSTERRA.jpg", "/imgs/AWSTERRA(2).jpg"]
         },
         {
           title: "IoT Simulation and Architecture in Cisco Packet Tracer",
@@ -196,19 +196,22 @@ const translations = {
             "Implementation of local logical rules and network communication protocols.",
             "Integration of simulated data flows with cloud interfaces and edge servers."
           ],
-          images: ["../imgs/IOT_Cisco.jpg"]
+          images: ["/imgs/IOT_Cisco.jpg"]
         }
       ],
     },
     contact: {
-      title: "Let\u2019s connect and ",
-      titleAccent: "build something solid.",
-      text: "Whether you need infrastructure support, cloud guidance, or just want to exchange ideas \u2014 I\u2019m open to conversations.",
+      title: "Open Space for Technical Connections and Partnerships",
+      titleAccent: "",
+      text: "The universe of infrastructure, cloud and DevOps culture evolves much faster when we share knowledge. If you're also an enthusiast of the area, want to debate modern architectures, exchange field experiences, or simply expand your professional network — the door is always open for a good technical conversation.",
       linkedinCta: "Connect on LinkedIn",
+      githubCta: "GitHub",
+      youtubeCta: "YouTube",
       instagramCta: "Instagram",
+      tiktokCta: "TikTok",
     },
     footer: {
-      copy: "Gregory Porto",
+      copy: "Since © 2025 Gregory Porto — structuring systems, one layer at a time.",
     },
   },
   pt: {
@@ -219,7 +222,7 @@ const translations = {
       projects: "Projetos",
       lab: "Lab",
       contact: "Contato",
-      cta: "Fale Comigo",
+      cta: "Faça parte da minha rede",
     },
     hero: {
       label: "INFRAESTRUTURA \u00b7 CLOUD \u00b7 SEGURAN\u00c7A EM TI \u00b7 DEV",
@@ -373,7 +376,7 @@ const translations = {
             "Configuração de CORS e comunicação frontend/backend via chamadas HTTP.",
             "Práticas de FinOps através do ciclo completo de provisionamento e desalocação de recursos para otimização de custos."
           ],
-          images: ["../imgs/AWSAPI(1).jpg", "../imgs/AWSAPI(2).jpg", "../imgs/AWSAPI(3).jpg"]
+          images: ["/imgs/AWSAPI(1).jpg", "/imgs/AWSAPI(2).jpg", "/imgs/AWSAPI(3).jpg"]
         },
         {
           title: "Lab de Hardware: Montagem e Setup PC Gamer",
@@ -398,7 +401,7 @@ const translations = {
             "Amazon EC2 para hospedagem da infraestrutura de sustentação da aplicação.",
             "Engenharia de Prompt (ChatGPT, Claude e Leonardo.ai) para aceleração de código e geração de assets."
           ],
-          images: ["../imgs/AWSTERRA.jpg", "../imgs/AWSTERRA(2).jpg"]
+          images: ["/imgs/AWSTERRA.jpg", "/imgs/AWSTERRA(2).jpg"]
         },
         {
           title: "Simulação e Arquitetura IoT no Cisco Packet Tracer",
@@ -408,19 +411,22 @@ const translations = {
             "Implementação de regras lógicas locais e protocolos de comunicação de rede.",
             "Integração de fluxos de dados simulados com interfaces de nuvem e servidores de borda."
           ],
-          images: ["../imgs/IOT_Cisco.jpg"]
+          images: ["/imgs/IOT_Cisco.jpg"]
         }
       ],
     },
     contact: {
-      title: "Vamos nos conectar e ",
-      titleAccent: "construir algo s\u00f3lido.",
-      text: "Se voc\u00ea precisa de suporte em infraestrutura, orienta\u00e7\u00e3o em cloud, ou apenas quer trocar ideias \u2014 estou aberto a conversas.",
+      title: "Espaço Aberto para Conexões e Parcerias Técnicas",
+      titleAccent: "",
+      text: "O universo de infraestrutura, cloud e cultura DevOps evolui muito mais rápido quando compartilhamos conhecimento. Se você também é entusiasta da área, quer debater sobre arquiteturas modernas, trocar experiências de campo ou simplesmente expandir sua rede profissional — a porta está sempre aberta para uma boa conversa técnica.",
       linkedinCta: "Conectar no LinkedIn",
+      githubCta: "GitHub",
+      youtubeCta: "YouTube",
       instagramCta: "Instagram",
+      tiktokCta: "TikTok",
     },
     footer: {
-      copy: "Gregory Porto",
+      copy: "Since © 2025 Gregory Porto — structuring systems, one layer at a time.",
     },
   },
   fr: {
@@ -590,7 +596,7 @@ const translations = {
       instagramCta: "Instagram",
     },
     footer: {
-      copy: "Gregory Porto",
+      copy: "Since © 2025 Gregory Porto — structuring systems, one layer at a time.",
     },
   },
 };

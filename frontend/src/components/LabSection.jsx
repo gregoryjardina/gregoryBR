@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { FlaskConical, Cloud, Server, GitBranch, X, Play } from "lucide-react";
+import { FlaskConical, Cloud, Server, GitBranch } from "lucide-react";
 import { useI18n } from "@/i18n/context.jsx";
 
 const icons = [Cloud, Server, GitBranch, Server];
@@ -8,9 +8,9 @@ const fade = { hidden: { opacity: 0, y: 14 }, show: { opacity: 1, y: 0 } };
 
 export default function LabSection() {
   const { t } = useI18n();
+  const [activeImage, setActiveImage] = useState(null);
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
-  const [expandedImage, setExpandedImage] = useState(null);
 
   const getYouTubeId = (url) => {
     const match = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([^&?/]+)/);
@@ -88,18 +88,21 @@ export default function LabSection() {
                       {hasImages && (
                         <div className={`grid gap-3 ${item.images.length === 1 ? 'grid-cols-1' : item.images.length === 2 ? 'grid-cols-2' : 'grid-cols-3'}`}>
                           {item.images.map((img, idx) => (
-                            <div key={idx} className="relative group/img cursor-pointer overflow-hidden rounded border border-white/[0.06]">
+                            <div 
+                              key={idx} 
+                              className="relative group/img cursor-pointer overflow-hidden rounded border border-white/[0.06]"
+                              onClick={() => setActiveImage(img)}
+                            >
                               <img
                                 src={img}
                                 alt={`${item.title} - Imagem ${idx + 1}`}
-                                className="w-full h-32 object-cover transition-transform group-hover/img:scale-105"
-                                onClick={() => setExpandedImage(img)}
+                                className="w-full h-32 object-cover transition-transform group-hover/img:scale-105 pointer-events-none"
                                 onError={(e) => {
                                   e.target.style.display = 'none';
                                   e.target.parentElement.innerHTML = '<div class="flex items-center justify-center h-32 text-white/20 text-xs">Imagem não encontrada</div>';
                                 }}
                               />
-                              <div className="absolute inset-0 bg-black/50 opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center">
+                              <div className="absolute inset-0 bg-black/50 opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
                                 <span className="text-white/80 text-xs">Clique para expandir</span>
                               </div>
                             </div>
@@ -129,27 +132,13 @@ export default function LabSection() {
         </div>
       </div>
 
-      {/* Image Expansion Modal */}
-      {expandedImage && (
+      {activeImage && (
         <div 
-          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4 sm:p-8"
-          onClick={() => setExpandedImage(null)}
+          style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', backgroundColor: 'rgba(0,0,0,0.85)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 9999, cursor: 'pointer' }}
+          onClick={() => setActiveImage(null)}
         >
-          <button 
-            className="absolute top-4 right-4 text-white/60 hover:text-white transition-colors z-10"
-            onClick={(e) => {
-              e.stopPropagation();
-              setExpandedImage(null);
-            }}
-          >
-            <X size={32} />
-          </button>
-          <img
-            src={expandedImage}
-            alt="Expanded view"
-            className="max-w-full max-h-full object-contain"
-            onClick={(e) => e.stopPropagation()}
-          />
+          <img src={activeImage} style={{ maxWidth: '90%', maxHeight: '90%', borderRadius: '8px', boxShadow: '0 4px 20px rgba(0,0,0,0.5)' }} alt="Zoom" />
+          <button style={{ position: 'absolute', top: '20px', right: '20px', background: 'none', border: 'none', color: '#fff', fontSize: '24px', cursor: 'pointer' }} onClick={(e) => { e.stopPropagation(); setActiveImage(null); }}>✕</button>
         </div>
       )}
     </section>

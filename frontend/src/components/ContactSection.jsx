@@ -29,17 +29,24 @@ export default function ContactSection() {
             className="inline-flex items-center gap-2 px-5 py-2.5 bg-neon-green text-black font-body font-semibold text-sm rounded hover:brightness-110 transition-all">
             <Linkedin size={15} />{t.contact.linkedinCta}<ArrowUpRight size={13} />
           </a>
-          <a data-testid="contact-github-button" href="https://github.com/gregoryjardina-dev" target="_blank" rel="noopener noreferrer"
+          <a data-testid="contact-github-button" href="https://github.com/gregoryjardina" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 border border-white/15 text-white/70 font-body font-medium text-sm rounded hover:bg-white/[0.04] transition-colors">
-            <Github size={15} />GitHub<ArrowUpRight size={13} />
+            <Github size={15} />{t.contact.githubCta}<ArrowUpRight size={13} />
           </a>
-          <a data-testid="contact-youtube-button" href="https://www.youtube.com/channel/UClgMa08_T8rA0qt82lwnzjA" target="_blank" rel="noopener noreferrer"
+          <a data-testid="contact-youtube-button" href="https://www.youtube.com/@cafecomotio" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 border border-red-500/25 text-red-400/80 font-body font-medium text-sm rounded hover:bg-red-500/[0.05] transition-colors">
-            <Youtube size={15} />YouTube<ArrowUpRight size={13} />
+            <Youtube size={15} />{t.contact.youtubeCta}<ArrowUpRight size={13} />
           </a>
-          <a data-testid="contact-instagram-button" href="https://www.instagram.com/gregory.jardina/" target="_blank" rel="noopener noreferrer"
+          <a data-testid="contact-instagram-button" href="https://www.instagram.com/gregory.j.porto/" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 border border-neon-blue/25 text-neon-blue font-body font-medium text-sm rounded hover:bg-neon-blue/[0.05] transition-colors">
             <Instagram size={15} />{t.contact.instagramCta}<ArrowUpRight size={13} />
+          </a>
+          <a data-testid="contact-tiktok-button" href="https://www.tiktok.com/@cafecomotio" target="_blank" rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 border border-white/15 text-white/70 font-body font-medium text-sm rounded hover:bg-white/[0.04] transition-colors">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+            </svg>
+            {t.contact.tiktokCta}<ArrowUpRight size={13} />
           </a>
         </motion.div>
       </div>
