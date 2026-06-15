@@ -11,8 +11,8 @@ module.exports = {
       colors: {
         'neon-green': '#39FF14',
         'neon-blue': '#00F0FF',
-        'bg-primary': '#080808',
-        'bg-surface': '#0e0e0e',
+        'bg-primary': '#22282c',
+        'bg-surface': '#343e44',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: { DEFAULT: 'hsl(var(--card))', foreground: 'hsl(var(--card-foreground))' },

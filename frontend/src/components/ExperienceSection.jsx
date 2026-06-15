@@ -47,7 +47,18 @@ export default function ExperienceSection() {
                 <div className="pb-2">
                   <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 mb-1">
                     <h3 className="font-heading font-semibold text-base text-white">{role.role}</h3>
-                    <span className="text-white/25 text-[13px] font-body">{role.company}</span>
+                    {role.companyLink ? (
+                      <a
+                        href={role.companyLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white/25 text-[13px] font-body hover:text-neon-green/60 transition-colors underline decoration-white/10 hover:decoration-neon-green/30"
+                      >
+                        {role.company}
+                      </a>
+                    ) : (
+                      <span className="text-white/25 text-[13px] font-body">{role.company}</span>
+                    )}
                   </div>
                   <p className="text-[12px] font-body mb-3" style={{ color: role.current ? "#39FF14aa" : "rgba(255,255,255,0.3)" }}>
                     {role.period}
