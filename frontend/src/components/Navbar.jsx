@@ -71,7 +71,7 @@ export default function Navbar() {
           <a data-testid="nav-linkedin" href="https://www.linkedin.com/in/gregoryporto/" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Linkedin size={15} />
           </a>
-          <a data-testid="nav-github" href="https://github.com/gregoryjardina-dev" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
+          <a data-testid="nav-github" href="https://github.com/gregoryjardina" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Github size={15} />
           </a>
           <a data-testid="nav-youtube" href="https://www.youtube.com/channel/UClgMa08_T8rA0qt82lwnzjA" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
@@ -105,7 +105,7 @@ export default function Navbar() {
           ))}
           <div className="flex gap-5 mt-2">
             <a href="https://www.linkedin.com/in/gregoryporto/" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Linkedin size={18} /></a>
-            <a href="https://github.com/gregoryjardina-dev" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Github size={18} /></a>
+            <a href="https://github.com/gregoryjardina" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Github size={18} /></a>
             <a href="https://www.youtube.com/channel/UClgMa08_T8rA0qt82lwnzjA" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Youtube size={18} /></a>
             <a href="https://www.instagram.com/gregory.jardina/" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Instagram size={18} /></a>
           </div>
