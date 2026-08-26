@@ -5,10 +5,11 @@ const I18nContext = createContext();
 
 function detectLang() {
   const stored = localStorage.getItem("lang");
-  if (stored === "en" || stored === "pt" || stored === "fr") return stored;
+  if (stored === "en" || stored === "pt" || stored === "fr" || stored === "it") return stored;
   const browser = navigator.language || navigator.userLanguage || "";
   if (browser.startsWith("pt")) return "pt";
   if (browser.startsWith("fr")) return "fr";
+  if (browser.startsWith("it")) return "it";
   return "en";
 }
 
@@ -18,12 +19,12 @@ export function I18nProvider({ children }) {
   const setLang = useCallback((l) => {
     setLangState(l);
     localStorage.setItem("lang", l);
-    const htmlLang = { en: "en", pt: "pt-BR", fr: "fr-CA" };
+    const htmlLang = { en: "en", pt: "pt-BR", fr: "fr-CA", it: "it-IT" };
     document.documentElement.lang = htmlLang[l] || "en";
   }, []);
 
   useEffect(() => {
-    const htmlLang = { en: "en", pt: "pt-BR", fr: "fr-CA" };
+    const htmlLang = { en: "en", pt: "pt-BR", fr: "fr-CA", it: "it-IT" };
     document.documentElement.lang = htmlLang[lang] || "en";
   }, [lang]);
 

@@ -27,7 +27,7 @@ export default function Navbar() {
     document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const langs = ["en", "fr", "pt"];
+  const langs = ["en", "fr", "pt", "it"];
   const cycleLang = () => {
     const idx = langs.indexOf(lang);
     setLang(langs[(idx + 1) % langs.length]);
@@ -67,17 +67,19 @@ export default function Navbar() {
             <span className={lang === "fr" ? "text-neon-green" : "text-white/35"}>FR</span>
             <span className="text-white/15">|</span>
             <span className={lang === "pt" ? "text-neon-green" : "text-white/35"}>PT</span>
+            <span className="text-white/15">|</span>
+            <span className={lang === "it" ? "text-neon-green" : "text-white/35"}>IT</span>
           </button>
           <a data-testid="nav-linkedin" href="https://www.linkedin.com/in/gregoryporto/" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Linkedin size={15} />
           </a>
-          <a data-testid="nav-github" href="https://github.com/gregoryjardina" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
+          <a data-testid="nav-github" href="https://github.com/gregoryporto007" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Github size={15} />
           </a>
-          <a data-testid="nav-youtube" href="https://www.youtube.com/channel/UClgMa08_T8rA0qt82lwnzjA" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
+          <a data-testid="nav-youtube" href="https://www.youtube.com/@cafecomotio" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Youtube size={15} />
           </a>
-          <a data-testid="nav-instagram" href="https://www.instagram.com/gregory.jardina/" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
+          <a data-testid="nav-instagram" href="https://www.instagram.com/gregoryporto.dev/" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-neon-blue transition-colors">
             <Instagram size={15} />
           </a>
         </div>
@@ -89,6 +91,8 @@ export default function Navbar() {
             <span className={lang === "fr" ? "text-neon-green" : "text-white/35"}>FR</span>
             <span className="text-white/15"> | </span>
             <span className={lang === "pt" ? "text-neon-green" : "text-white/35"}>PT</span>
+            <span className="text-white/15"> | </span>
+            <span className={lang === "it" ? "text-neon-green" : "text-white/35"}>IT</span>
           </button>
           <button data-testid="mobile-menu-toggle" onClick={() => setOpen(!open)} className="text-white/50">
             {open ? <X size={20} /> : <Menu size={20} />}
@@ -105,9 +109,9 @@ export default function Navbar() {
           ))}
           <div className="flex gap-5 mt-2">
             <a href="https://www.linkedin.com/in/gregoryporto/" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Linkedin size={18} /></a>
-            <a href="https://github.com/gregoryjardina" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Github size={18} /></a>
-            <a href="https://www.youtube.com/channel/UClgMa08_T8rA0qt82lwnzjA" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Youtube size={18} /></a>
-            <a href="https://www.instagram.com/gregory.jardina/" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Instagram size={18} /></a>
+            <a href="https://github.com/gregoryporto007" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Github size={18} /></a>
+            <a href="https://www.youtube.com/@cafecomotio" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Youtube size={18} /></a>
+            <a href="https://www.instagram.com/gregoryporto.dev/" target="_blank" rel="noopener noreferrer" className="text-white/35 hover:text-neon-blue"><Instagram size={18} /></a>
           </div>
         </div>
       )}

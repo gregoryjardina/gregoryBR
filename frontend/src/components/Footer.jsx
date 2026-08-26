@@ -2,9 +2,9 @@ import { Linkedin, Instagram, Github, Youtube } from "lucide-react";
 
 const socials = [
   { icon: Linkedin, href: "https://www.linkedin.com/in/gregoryporto/", testId: "footer-linkedin" },
-  { icon: Github, href: "https://github.com/gregoryjardina", testId: "footer-github" },
-  { icon: Youtube, href: "https://www.youtube.com/channel/UClgMa08_T8rA0qt82lwnzjA", testId: "footer-youtube" },
-  { icon: Instagram, href: "https://www.instagram.com/gregory.jardina/", testId: "footer-instagram" },
+  { icon: Github, href: "https://github.com/gregoryporto007", testId: "footer-github" },
+  { icon: Youtube, href: "https://www.youtube.com/@cafecomotio", testId: "footer-youtube" },
+  { icon: Instagram, href: "https://www.instagram.com/gregoryporto.dev/", testId: "footer-instagram" },
 ];
 
 export default function Footer() {

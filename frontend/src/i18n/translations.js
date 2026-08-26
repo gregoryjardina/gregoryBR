@@ -15,7 +15,7 @@ const translations = {
       titleAccent: "with focus on Cloud and DevOps",
       subtitle: "Over 10 years of experience in technical support, infrastructure and corporate environments.",
       description: "Professional with solid background in networking, Windows and Linux systems, Microsoft 365 and information security. Currently directing evolution towards Cloud, automation and DevOps, combining practical field experience with continuous learning to build more secure, efficient and scalable environments.",
-      cta: "Get in Touch",
+      cta: "SEE MY WORK",
     },
     about: {
       label: "About Me",
@@ -230,7 +230,7 @@ const translations = {
       titleAccent: "com foco em Cloud e DevOps",
       subtitle: "Mais de 10 anos de experi\u00eancia em suporte t\u00e9cnico, infraestrutura e ambientes corporativos.",
       description: "Profissional com s\u00f3lida base em redes, sistemas Windows e Linux, Microsoft 365 e seguran\u00e7a da informa\u00e7\u00e3o. Atualmente direcionando evolu\u00e7\u00e3o para Cloud, automa\u00e7\u00e3o e DevOps, unindo experi\u00eancia pr\u00e1tica de campo com aprendizado cont\u00ednuo para construir ambientes mais seguros, eficientes e escal\u00e1veis.",
-      cta: "Fale Comigo",
+      cta: "CONHEÇA MEU TRABALHO",
     },
     about: {
       label: "Sobre Mim",
@@ -445,7 +445,7 @@ const translations = {
       titleAccent: "avec focus sur Cloud et DevOps",
       subtitle: "Plus de 10 ans d\u2019exp\u00e9rience en soutien technique, infrastructure et environnements corporatifs.",
       description: "Professionnel avec solide base en r\u00e9seautique, syst\u00e8mes Windows et Linux, Microsoft 365 et s\u00e9curit\u00e9 de l\u2019information. Dirige actuellement l\u2019\u00e9volution vers Cloud, automatisation et DevOps, combinant exp\u00e9rience pratique de terrain avec apprentissage continu pour construire des environnements plus s\u00e9curis\u00e9s, efficaces et \u00e9volutifs.",
-      cta: "Me contacter",
+      cta: "VOIR MON TRAVAIL",
     },
     about: {
       label: "À propos",
@@ -594,6 +594,221 @@ const translations = {
       text: "Que vous ayez besoin de soutien en infrastructure, de conseils infonuagiques, ou que vous vouliez simplement \u00e9changer des id\u00e9es \u2014 je suis ouvert aux conversations.",
       linkedinCta: "Se connecter sur LinkedIn",
       instagramCta: "Instagram",
+    },
+    footer: {
+      copy: "Since © 2025 Gregory Porto — structuring systems, one layer at a time.",
+    },
+  },
+  it: {
+    nav: {
+      about: "Chi Sono",
+      skills: "Competenze",
+      experience: "Esperienza",
+      projects: "Progetti",
+      lab: "Lab",
+      contact: "Contatto",
+      cta: "Unisciti alla mia rete",
+    },
+    hero: {
+      label: "INFRASTRUTTURA \u00b7 CLOUD \u00b7 SICUREZZA IT \u00b7 DEV",
+      title: "Specialista Infrastruttura ",
+      titleAccent: "con focus su Cloud e DevOps",
+      subtitle: "Oltre 10 anni di esperienza in supporto tecnico, infrastruttura e ambienti aziendali.",
+      description: "Professionista con solida base in reti, sistemi Windows e Linux, Microsoft 365 e sicurezza delle informazioni. Attualmente direzionando l'evoluzione verso Cloud, automazione e DevOps, unendo esperienza pratica di campo con apprendimento continuo per costruire ambienti più sicuri, efficienti e scalabili.",
+      cta: "SCOPRI IL MIO LAVORO",
+    },
+    about: {
+      label: "Chi Sono",
+      title: "Gregory Porto",
+      paragraphs: [
+        "Attualmente lavoro nel dipartimento IT di Alimentos Toscana, supportando l'evoluzione dell'infrastruttura tecnologica, supporto aziendale, organizzazione dei processi interni e stabilità operativa degli ambienti dell'azienda, inclusi TOTVS, reti, Microsoft 365 e soluzioni aziendali.",
+        "Con oltre 10 anni di esperienza in IT, ho lavorato con supporto tecnico, infrastruttura, reti, sicurezza delle informazioni e sistemi aziendali. Ho solida esperienza nel supporto e implementazione di diverse architetture software, progredendo da soluzioni commerciali e verticali a grandi sistemi aziendali: TOTVS (ERP aziendale industriale attuale), ContaAzul e Sisplan (ERP ottimizzati per il settore alimentare), HUB MoveEdu (ERP focalizzato sulla gestione educativa e franchise) e i9PDV (automazione commerciale e punto vendita).",
+        "Sono Fuciliere di Marina della riserva con operazioni in Amazzonia. Questo background militare mi ha portato esperienze in scenari ad alta pressione che hanno sviluppato disciplina rigorosa, resilienza estrema e rapida capacità di adattamento.",
+        "Oggi dirigo la mia crescita professionale verso Infrastruttura Moderna, Cloud, Automazione, DevOps e Sicurezza delle Informazioni, unendo esperienza pratica di campo con architetture moderne e scalabili.",
+      ],
+      focusLabel: "Focus attuale",
+      focusItems: [
+        "Cloud Computing (AWS & Azure)",
+        "Infrastruttura Aziendale",
+        "Sicurezza delle Informazioni",
+        "DevOps & Automazione",
+        "Microsoft 365",
+        "ERP TOTVS",
+        "Reti & Servizi Aziendali",
+        "Ambienti Windows & Linux",
+      ],
+    },
+    skills: {
+      label: "Competenze",
+      title: "Con cosa lavoro",
+      items: [
+        { title: "Cloud Computing (AWS & Azure)", text: "Fondamenti solidi in AWS, operando soluzioni essenziali come EC2, S3, VPC, IAM e CloudWatch. Attualmente, guido lo studio di fattibilità e pianificazione per migrazione e integrazione di ambienti in Microsoft Azure, allineando l'infrastruttura alla nostra architettura Microsoft 365." },
+        { title: "Reti & Infrastruttura modernizzata", text: "Prospezione e supporto di reti aziendali. Esperienza pratica in cablaggio strutturato, configurazione di switch, router e firewall. Lavoro attivamente nella segmentazione di reti (VLAN e Wi-Fi dedicato, come strutture separate per ADM e Guest), garantendo performance, sicurezza e alta disponibilità per i settori." },
+        { title: "Supporto, Sistemi & ERP", text: "Gestione completa delle postazioni di lavoro, troubleshooting avanzato e amministrazione dell'ecosistema Microsoft 365. Esperienza nel supporto operativo e parametrizzazione di molteplici ERP e sistemi commerciali, inclusi: TOTVS (supporto dell'ambiente attuale nel settore industriale alimentare), ContaAzul & Sisplan (gestione e supporto in ERP focalizzati sul retail e industria alimentare), HUB MoveEdu (amministrazione di ERP verticalizzato per reti di franchise e educazione) e i9PDV (automazione commerciale, supporto e gestione punto vendita)." },
+        { title: "Cybersicurezza Aziendale", text: "Applicazione pratica di politiche di controllo accesso (IAM), gestione e audit di routine di backup, protezione degli endpoint e implementazione di buone pratiche di sicurezza digitale personalizzate per scenari PMI." },
+        { title: "DevOps, Automazione & Futuro (In Evoluzione)", text: "Focus diretto verso la cultura DevOps e infrastruttura come codice (IaC). Conoscenza base di Linux e Git. Attualmente, strutturo la base concettuale per futura implementazione di container (Docker) e pipeline di automazione (CI/CD), collegando l'apprendimento teorico ai bisogni reali di evoluzione tecnologica dell'azienda." },
+        { title: "Consulenza Tecnica & Processi", text: "Valutazione critica di ambienti IT, mappatura dei colli di bottiglia, raccomandazioni strategiche hardware/software, ottimizzazione dei flussi operativi e allineamento della tecnologia agli obiettivi di business dell'azienda." },
+      ],
+    },
+    experience: {
+      label: "Esperienza Professionale",
+      title: "Percorso",
+      roles: [
+        {
+          role: "Analista di Sistemi",
+          company: "Alimentos Toscana",
+          companyLink: "https://www.alimentostoscana.com.br/",
+          period: "Nov 2025 \u2013 Presente",
+          current: true,
+          bullets: [
+            "Gestione e modernizzazione del parco tecnologico, eseguendo il ciclo completo di upgrade e sostituzione hardware focalizzato su alta disponibilità.",
+            "Azione strategica nel supporto e parametrizzazione degli ERP TOTVS, ContaAzul e Sisplan, mappando e ottimizzando i processi per scala e operazione del business.",
+            "Architettura, governance accessi e amministrazione dell'ecosistema email, guidando la migrazione definitiva e formazione utenti nell'ambiente Microsoft 365.",
+            "Ricerca, fattibilità e design tecnico per futura implementazione di strumenti con Intelligenza Artificiale applicata all'operazione.",
+          ],
+        },
+        {
+          role: "Istruttore e Coordinatore IT",
+          company: "Microlins",
+          companyLink: "https://www.microlinsfloripa.com.br/",
+          period: "2024 \u2013 2025",
+          current: false,
+          bullets: [
+            "Insegnamento di fondamenti IT, architettura di reti e hardware, traducendo concetti complessi per diversi livelli di apprendimento in entrambe le istituzioni.",
+            "Leadership e coordinamento pedagogico alla Microlins, amministrando l'ERP HUB MoveEdu per controllo classi, griglie e indicatori di retention.",
+            "Sviluppo e adattamento di matrici curriculari con focus totale su apprendimento pratico e metodologia hands-on.",
+          ],
+        },
+        {
+          role: "Analista Supporto IT Freelance",
+          company: "Autonomo",
+          period: "2014 \u2013 2023",
+          current: false,
+          bullets: [
+            "Servizio consulenziale specializzato (on-site e remoto) focalizzato su soluzioni infrastrutturali per PMI e professionisti autonomi.",
+            "Supporto tecnico completo: implementazione di reti aziendali, sicurezza dati, troubleshooting avanzato e amministrazione sistemi operativi.",
+            "Consolidamento di portafoglio clienti a lungo termine basato su accordi di livello servizio (SLA) affidabili ed efficienti.",
+          ],
+        },
+        {
+          role: "Rappresentante Commerciale B2B - Sistemi i9PDV",
+          company: "Sistemi i9PDV",
+          companyLink: "http://i9pdv.com",
+          period: "2019 \u2013 2021",
+          current: false,
+          bullets: [
+            "Consulenza tecnica e supporto commerciale strategico focalizzato sulla vendita di sistemi automazione commerciale e fatturazione (i9PDV).",
+            "Azione consulenziale come ponte tecnico, traducendo i bisogni di business del cliente in requisiti software punto vendita e back-office.",
+          ],
+        },
+        {
+          role: "Fuciliere di Marina",
+          company: "Marina Brasiliana",
+          period: "2005 \u2013 2010",
+          current: false,
+          bullets: [
+            "Sviluppo di disciplina, lavoro di squadra e resilienza in ambienti ad alta pressione",
+            "Base di pensiero strutturato ed esecuzione orientata missione che si riflette nel lavoro IT",
+          ],
+        },
+      ],
+    },
+    projects: {
+      label: "Casi Studio",
+      title: "Problemi risolti, risultati consegnati.",
+      items: [
+        {
+          title: "Ristrutturazione Rete Aziendale",
+          problem: "Aziende e operazioni logistiche soffrendo di cali costanti di connettività, generando colli di bottiglia operativi e fermi nelle attività quotidiane.",
+          action: "Riorganizzazione completa del cablaggio strutturato e sostituzione di switch non gestiti con asset gestiti. Implementazione segmentazione rete (VLAN dedicate per ADM e Clienti/Visitatori), distribuzione strategica di nuovi switch per settori, espansione portata segnale e consulenza per upgrade e dimensionamento link internet (es: migrazione da 100Mb a 500Mb).",
+          result: "Riduzione dell'80% degli incidenti di connessione, consegnando un'infrastruttura di rete stabile, scalabile e prevedibile.",
+          tags: ["Reti", "Infrastruttura", "Switch"],
+        },
+        {
+          title: "Server, Sicurezza e Sistema Backup",
+          problem: "Aziende legali, costruzione e alimenti operando con infrastrutture vulnerabili: assenza di storage centralizzato, server obsoleti, dati critici dispersi su macchine personali e reti esposte a rischi sicurezza.",
+          action: "Implementazione server locali con directory condivise e politiche rigide controllo accesso (IAM). Stabilimento routine automatizzate backup ibrido (locale isolato e replica cloud), con separazione rigorosa tra file aziendali e uso personale. Aggiornamento critico sistemi operativi e migrazione sicura dati.",
+          result: "Zero incidenti perdita dati. Governance accessi stabilita e continuità business garantita — con ripristino agile e riuscito di file in scenari di guasto hardware obsoleto.",
+          tags: ["Server", "Backup Ibrido", "Sicurezza"],
+        },
+        {
+          title: "Infrastruttura IT per Cliniche Mediche e Veterinarie",
+          problem: "Cliniche sanitarie con attrezzature obsolete e infrastruttura disorganizzata, impattando sistemi critici assistenza e pregiudicando produttività del team in ambiente dove agilità tratta direttamente con vite.",
+          action: "Upgrade e sostituzione parco macchine focalizzato su performance per software medici. Ristrutturazione e identificazione rack e connessioni fisiche. Configurazione reti Wi-Fi segmentate per isolare traffico amministrativo dai pazienti, oltre formazione e capacity building del team per uso efficiente nuove risorse.",
+          result: "Ambiente tecnologico pulito, in conformità con requisiti sicurezza e con connettività affidabile, garantendo fluidità totale nei processi clinici e operativi.",
+          tags: ["IT Ospedaliero", "Wi-Fi Aziendale", "Hardware"],
+        },
+        {
+          title: "Recupero e Ottimizzazione Equipaggiamenti",
+          problem: "Computer commercio al dettaglio operando con estrema lentezza, sistemi obsoleti e assenza completa di routine cure tecniche.",
+          action: "Diagnosi tecnico meticoloso, manutenzione fisica preventiva (pulizia interna avanzata e sostituzione componenti termici), aggiornamento e ottimizzazione sistemi operativi e creazione calendario sostenibile manutenzione preventiva.",
+          result: "Macchine con tempo risposta ottimizzato, eliminazione blocchi POS/back-office e aumento vita utile asset aziendali.",
+          tags: ["Manutenzione", "Ottimizzazione", "Hardware"],
+        },
+      ],
+    },
+    lab: {
+      label: "Laboratorio",
+      title: "Esperimenti & Studi",
+      subtitle: "Progetti pratici che costruisco per affinare competenze in Cloud, DevOps e Sicurezza.",
+      items: [
+        {
+          title: "Architettura Serverless con AWS",
+          description: "Sviluppo e deploy di gioco indovinello basato su architettura 100% serverless, utilizzando Amazon S3 per hosting frontend statico, AWS Lambda per elaborazione logica business e API Gateway per gestione richieste HTTP. Progetto integrato studi pratici per certificazione AWS Developer Associate in partnership con Escola da Nuvem.",
+          skills: [
+            "Pubblicazione e distribuzione siti statici via S3.",
+            "Creazione, esposizione e sicurezza API con Lambda e API Gateway.",
+            "Configurazione CORS e comunicazione frontend/backend via chiamate HTTP.",
+            "Pratiche FinOps attraverso ciclo completo provisioning e deallocazione risorse per ottimizzazione costi."
+          ],
+          images: ["/imgs/AWSAPI(1).jpg", "/imgs/AWSAPI(2).jpg", "/imgs/AWSAPI(3).jpg"]
+        },
+        {
+          title: "Lab Hardware: Montaggio e Setup PC Gamer",
+          description: "Produzione contenuto tecnico e documentazione video coprendo ciclo completo montaggio, gestione cavi, test stress e validazione hardware per stazione alta performance.",
+          specs: [
+            "Processore: Intel Core i5 10400",
+            "Grafica: RTX 3050 Galax 8GB GDDR6",
+            "Scheda Madre: H410M V2",
+            "Memoria: 16GB RAM (Dual Channel 8GB + 8GB)",
+            "Storage: SSD NVMe M.2 500GB",
+            "Alimentazione: Fonte Redragon 600W"
+          ],
+          video: "https://youtu.be/zMTBcqZDCc4"
+        },
+        {
+          title: "Infrastruttura come Codice e Container (CloudMart)",
+          description: "Implementazione applicazione e-commerce basata su architettura CloudMart durante sfida The Cloud Bootcamp Multicloud. Il progetto consisteva in provisioning automatizzato infrastruttura cloud e deploy servizi containerizzati in ambiente Linux.",
+          skills: [
+            "Terraform per provisioning e versioning infrastruttura come codice (IaC).",
+            "Docker per creazione, isolamento e gestione container Frontend e Backend.",
+            "Amazon DynamoDB per persistenza dati in database NoSQL scalabile.",
+            "Amazon EC2 per hosting infrastruttura supporto applicazione.",
+            "Prompt Engineering (ChatGPT, Claude e Leonardo.ai) per accelerazione codice e generazione asset."
+          ],
+          images: ["/imgs/AWSTERRA.jpg", "/imgs/AWSTERRA(2).jpg"]
+        },
+        {
+          title: "Simulazione e Architettura IoT in Cisco Packet Tracer",
+          description: "Laboratorio pratico focalizzato su disegno e validazione reti intelligenti per Internet of Things (IoT). L'ambiente simula comportamento reale di ecosistemi connessi, validando flussi dati dall'ecosistema fisico fino ai layer applicativi.",
+          skills: [
+            "Configurazione, indirizzamento e calibrazione sensori e attuatori.",
+            "Implementazione regole logiche locali e protocolli comunicazione rete.",
+            "Integrazione flussi dati simulati con interfacce cloud e server edge."
+          ],
+          images: ["/imgs/IOT_Cisco.jpg"]
+        }
+      ],
+    },
+    contact: {
+      title: "Spazio Aperto per Connessioni e Partnership Tecniche",
+      titleAccent: "",
+      text: "L'universo di infrastruttura, cloud e cultura DevOps evolve molto più velocemente quando condividiamo conoscenza. Se anche tu sei appassionato dell'area, vuoi dibattere su architetture moderne, scambiare esperienze di campo o semplicemente espandere la tua rete professionale — la porta è sempre aperta per una buona conversazione tecnica.",
+      linkedinCta: "Connetti su LinkedIn",
+      githubCta: "GitHub",
+      youtubeCta: "YouTube",
+      instagramCta: "Instagram",
+      tiktokCta: "TikTok",
     },
     footer: {
       copy: "Since © 2025 Gregory Porto — structuring systems, one layer at a time.",
